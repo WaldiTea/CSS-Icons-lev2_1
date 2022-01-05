@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+div:first-of-type {
+  color: #1877f2;
+}
+
+div:nth-of-type(2) {
+  color: #e4405f;
+}
+
+div:nth-of-type(3) {
+  color: #cd201f;
+}
+
+div:nth-of-type(4) {
+  color: #0a66c2;
+}
+
+div:last-of-type {
+  color: #25d366;
+}
+
+main section:nth-of-type(2) {
+  display: none;
+}
+
+main:hover section:first-of-type {
+  display: none;
+}
+
+main:hover section:nth-of-type(2) {
+  display: block;
+}
